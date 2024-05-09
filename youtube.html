@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>YouTube.com Clone</title>
+
+        <link rel="preconnect"
+         href="https://fonts.googleapis.com">
+        <link rel="preconnect"
+         href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+         rel="stylesheet">
+
+         <link rel="stylesheet" href="styles/general.css">
+         <link rel="stylesheet" href="styles/header.css">
+         <link rel="stylesheet" href="styles/video.css">
+         <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+
+    <body class="body">
+
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-manu" 
+                src="icons/hamburger-menu.svg">
+                <img class="youtube-logo"
+                src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <!--  Put postion absolute in potition relative  -->
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube Apps</div>
+               </div>
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="tooltip">notifications</div>
+                    <div class="notifications-count">4</div>
+                </div>
+                <img class="channel-icon" src="icons/channel.jpg">
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscribes</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p2.webp">
+                        <div class="video-time">7:28</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c2.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Type Of Students During Exams &#124; Indian Exams
+                            </p>
+                    
+                            <p class="video-author">NOT YOUR TYPE
+                            </p>
+                    
+                            <p class="video-stats">
+                                13M views &#183; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview" >
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p3.webp">
+                        <div class="video-time">30:03</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c3.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                The Dark Truth You Don't Know !!
+                            </p>
+                    
+                            <p class="video-author">
+                                JEE Wallah
+                            </p>
+                    
+                            <p class="video-stats">
+                                69K views &#183; 17 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p8.webp">
+                        <div class="video-time">15:39</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c5.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                How to Start Coding in 2023? Learn Programming for Beginners
+                            </p>
+                    
+                            <p class="video-author">Apna College
+                            </p>
+                    
+                            <p class="video-stats">
+                                1.4M views &#183; 4 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p4.webp">
+                        <div class="video-time">29:37</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c4.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                How to put HTML website online(on the internet)
+                            </p>
+                    
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+                    
+                            <p class="video-stats">
+                                630K views &#183; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p5.webp">
+                        <div class="video-time">3:49</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c5.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                4 Years of Coding in 4 Minutes-A Short Movie
+                            </p>
+                    
+                            <p class="video-author">Apna College
+                            </p>
+                    
+                            <p class="video-stats">
+                                7.7M views &#183; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p6.webp">
+                        <div class="video-time">6:05</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c6.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                If Programming Was An Anime 2
+                            </p>
+                    
+                            <p class="video-author">
+                                Joma Tech
+                            </p>
+                    
+                            <p class="video-stats">
+                                4.3M views &#183; 2 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p13.webp">
+                        <div class="video-time">3:33</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c10.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Rajwant Sir: Teacher ya Haryanvi gunda | Physics Wallah Comedy
+                            </p>
+                    
+                            <p class="video-author">PW ka Balak
+                            </p>
+                    
+                            <p class="video-stats">
+                                45k views &#183; 2 weeks ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview" >
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p7.webp">
+                        <div class="video-time">11:57:22</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c4.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                JavaScript Full Course (2023) - Beginner to Pro - Part 1
+                            </p>
+                    
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+                    
+                            <p class="video-stats">
+                                761K views &#183; 2 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p12.webp">
+                        <div class="video-time">1:20</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c10.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Sir, आप बहूत डरावने हो 👻👹 | Rajwant Sir | Rajwant Sir Comedy | Rajwant Sir OP | Physicswallah
+                            </p>
+                    
+                            <p class="video-author">PW ka Balak
+                            </p>
+                    
+                            <p class="video-stats">
+                                1.4k views &#183; 16 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p11.webp">
+                        <div class="video-time">2:18</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c9.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                I Am Death
+                            </p>
+                    
+                            <p class="video-author">
+                                Zurik 23M
+                            </p>
+                    
+                            <p class="video-stats">
+                                7.9M views &#183; 4 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p10.webp">
+                        <div class="video-time">3:10</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c8.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Revenge | Kung Fu Panda - Trilogy Villain Tribute
+                            </p>
+                    
+                            <p class="video-author">Escathon Edits
+                            </p>
+                    
+                            <p class="video-stats">
+                                841k views &#183; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumnail-row">
+                        <img class="thumnail" src="thumnails/p9.webp">
+                        <div class="video-time">4:16</div>
+                    </div>            
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-pic" src="channel-pictures/c7.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                KCET 2023 - STEPS THAT STUDENTS HAVE TO KNOW AFTER KCET RESULT |
+                                KCET COUNSELLING PROCESS 2023
+                            </p>
+                    
+                            <p class="video-author">
+                                EDUcare Karnataka
+                            </p>
+                    
+                            <p class="video-stats">
+                                16k views &#183;  16 hours ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+            </section>
+        </main>
+    </body>
+</html>
+
